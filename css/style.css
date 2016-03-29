@@ -1,56 +1,83 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: sans-serif;
-    background: url(img/bg.jpg) repeat fixed;
+  font-family: sans-serif;
+  background: url(img/bg.jpg) repeat fixed;
 }
 
 .wrp {
-    width: 960px;
-    margin: 20px auto;
+  width: 960px;
+  margin: 20px auto;
 }
-h1{
-    font-size: 40px;
-    font-weight: normal;
-    text-align: center;
-    padding: 8px;
-    background: brown;
-    margin-bottom: 15px;
-    color: wheat;
-    border-radius: 3px;
-    box-shadow: 0 0 10px 0 green;
+
+h1 {
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  padding: 8px;
+  background: brown;
+  margin-bottom: 15px;
+  color: wheat;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 10px 0 green;
+  -moz-box-shadow: 0 0 10px 0 green;
+  -ms-box-shadow: 0 0 10px 0 green;
+  -o-box-shadow: 0 0 10px 0 green;
+  box-shadow: 0 0 10px 0 green;
 }
+
 h1:hover {
-    color: white;
+  color: white;
 }
+
 .area {
-    overflow: hidden;
-    background: #01796F;
-    width: 960px;
-    height: 576px;
+  overflow: hidden;
+  background: #01796F;
+  width: 960px;
+  height: 576px;
 }
+
 .circle {
-    background: #E11837;
-    width: 384px;
-    height: 384px;
-    border-radius: 100%;
-    margin-top: 96px;
-    margin-left: 240px;
+  background: #E11837;
+  width: 384px;
+  height: 384px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  margin-top: 96px;
+  margin-left: 240px;
 }
+
 .footer {
-    background: green;
-    padding: 10px;
-    margin-top: 15px;
-    border-radius: 3px;
-    box-shadow: 0 0 10px 0 red;
+  background: green;
+  padding: 10px;
+  margin-top: 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 10px 0 red;
+  -moz-box-shadow: 0 0 10px 0 red;
+  -ms-box-shadow: 0 0 10px 0 red;
+  -o-box-shadow: 0 0 10px 0 red;
+  box-shadow: 0 0 10px 0 red;
 }
+
 h2 {
-    color: wheat;
-    font-weight: normal;
+  color: wheat;
+  font-weight: normal;
 }
+
 h2:hover {
-    color: white;
+  color: white;
 }
