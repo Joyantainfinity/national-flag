@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: url(img/bg.jpg) repeat fixed;
+}
+
+.wrp {
+    width: 960px;
+    margin: 20px auto;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    padding: 8px;
+    background: brown;
+    margin-bottom: 15px;
+    color: wheat;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 green;
+}
+h1:hover {
+    color: white;
+}
+.area {
+    overflow: hidden;
+    background: #01796F;
+    width: 960px;
+    height: 576px;
+}
+.circle {
+    background: #E11837;
+    width: 384px;
+    height: 384px;
+    border-radius: 100%;
+    margin-top: 96px;
+    margin-left: 240px;
+}
+.footer {
+    background: green;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0 red;
+}
+h2 {
+    color: wheat;
+    font-weight: normal;
+}
+h2:hover {
+    color: white;
+}
